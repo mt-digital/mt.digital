@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Matthew Turner" />
+  <title>Emergent symbolism in connectionist systems</title>
+  <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css"
+          integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj"
+          crossorigin="anonymous">
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div class="container">
+    <div id="header">
+        <h1 class="title">Emergent symbolism in connectionist systems</h1>
+        <br>
+        <h2 class="author">Matthew Turner</h2>
+        <h3 class="date">September 27, 2016</h3>
+        <a href="/">Go back</a>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1 id="introduction">Introduction</h1>
+    <p>This essay describes a hypothesis that symbolic processing can exist as an emergent property of connectionist systems, and that this happens in the brain. Such a train of thought emerges in response to the apparent contradiction posed by the connectionist program—how could it be distinct from symbolic systems when connectionist models themselves are based upon an extensive formal mathematical system?</p>
+    <p>Clearly humans engage in symbolic thought as evidenced by millenia of mathematics. Even just the Arabic number zero, an incredibly simple symbol, was an incredible achievement that revolutionized the way human beings understand the world. However, there seems to be an apparent contradiction since the brain is not made of symbols, it is made of neurons, which operate in groups, not as individuals. However, I argue that the masses of neurons that fire and wire together possess the fundamental capability to operate in a symbolic way. In terms of evolution and the universal principle of nature to minimize the energy of a system, this makes perfect sense. The brain should have evolved to compute and transmit information as efficiently as possible.</p>
+    <h1 id="symbolic-systems">Symbolic systems</h1>
+    <p>Symbolic systems, or computational theories of mind (CTM), are appealing for a number of reasons. Perhaps one that is most compelling is that it fits with a fundamental experience of being human, namely learning and creating symbols to make reasoning easier. For millenia now, the ability to create and utilize new modes of symbolic thought determined human power structures, either through improved trade, laws, mathematics and science, and so on. As <span class="citation">Rescorla (2015)</span> summarizes, cognitive scientists have described this power of symbolic systems to lay in their productivity and systematicity. Humans are hardly the only animals to behave in such a way that can most simply be described as “symbolic”. For example, the scrub jay can recall many of the roughly 10,000 sites where it caches acorns for later consumption. However, there are some conundrums facing proponents of CTM due to some inherent limits in the theory. One of the major problems is the invention of a rather awkward, and not universally accepted, language for CTM called “Mentalese”. A related problem that <span class="citation">Rescorla (2015)</span> admits is “mental states do not have literal shapes relevant to psychological explanation.” Furthermore, CTM “lack a widely accepted analysis of formal mental syntax.” If this system does not even have a widely accepted syntax for symbolic thought, then how can it even be used for reasoning about cognition? Occam’s razor is cutting against the viability of CTM. However, below I will argue that a connectionist formalism could be used for the accepted syntax of symbolic thought and we can recover a form of symbolic processing that is more logically consistent and physiologically valid than CTM.</p>
+    <h1 id="connectionism">Connectionism</h1>
+    <p>Connectionist modeling is based on a very rough approximation of the brain and evolved following revolutionary discoveries in neuroscience <span class="citation">(Rumelhart and McClelland 1986)</span>. Essentially, connectionist models, or “neural networks” in more modern terminology, can model language learning and comprehension, neurological disorders, among other cognitive functions <span class="citation">(Joanisse and McClelland 2015)</span>. These models “learn” through training: the human operator “shows”, <em>in silico</em>, a series of inputs and the correct outputs. Each “neuron” of the neural network has its connections adjusted based on the error, or the difference between the known correct output and the network-generated output. Although the actual implementation is far more complicated, the operation of the updating of connections between neurons can be summed up as Hebb’s rule, in which neurons that fire together wire together. Connectionist models can recreate neuropsychological disorders such as dyslexia by creating “lesions” in the neural network. These lesions are created by removing or scrambling parts of the network after the learning process has been completed <span class="citation">(Olson and Humphreys 1997)</span>.</p>
+    <h1 id="symbolic-processing-as-an-emergent-property-of-connectionist-systems">Symbolic processing as an emergent property of connectionist systems</h1>
+    <p>Now that we have introduced both the symbolic systems and connectionist approaches to studying and modeling cognition, I will further explain my hypothesis that symbolic processing could be an emergent property of a connectionist processing system. Then I will discuss two recent developments that support this claim. First, I want to consider the brain as “connectionist hardware”. We are at least somewhat justified in taking this stance this since there are neurons in the brain that do appear to wire together when they fire together, as the saying goes. The biological plausibility is important because we know that physical systems tend towards minimum energy configurations and biological systems evolve towards fitter systems. On this basis, I argue that symbolic thought arises as a way to efficiently use energy. The brain, or a suitable connectionist system, could encode stored information in a sparse form to make the use of our neural memory capacity when long term memories are formed. This would also mean processing could happen more quickly and more items could be processed at once if processing could also happen in the sparse domain.</p>
+    <p>In fact, this is one of the bases for the amazing success of deep learning, where neural networks have many hidden layers of decreasing cardinality. The hidden layers with less neurons encode the lower-frequency, or broader, features of whatever signals are being operated on. Recently, deep learning networks have been developed that convert pictures to words. Is this not symbolic processing, in a sense? The network capable of doing this was able to build a <em>relation</em> between two distinct domains, text and image. While the exact symbolic mechanisms may not yet be discernable, there is nonetheless a <em>generative, creative</em> mapping of symbols from one domain to another <span class="citation">(LeCun et al. 2015)</span>.</p>
+    <p>The second recent development to support the emergence of symbolic processing is <span class="citation">Kriete et al. (2013)</span>, who showed that the prefrontal cortex and basal ganglia possessed the structure that would enable “symbol-like processing”. Their findings suggest that the brain can variables to neural activations, effectively “corresponding to the use of a pointer” in the terms of computer programming in C. If this is indeed the case, it points to a neural mechanism for creating symbols that can be used in efficient processing as I have outlined. Ever since the work of Fourier in the 1822, we have known about the power of computing in sparse domains, where a potentially high-dimensional vector that exists in one vector space may be represented more sparsely or parsimoniously in another vector space. These sparse representations could be connectionist “symbols” on which the brain can compute more efficiently.</p>
+    <h1 id="conclusion">Conclusion</h1>
+    <p>We began by dancing around the apparent contradiction of the symbolism required to write down connectionist modeling rules by distinguishing formalism from the program of modeling cognition through symbolic processing. Formalism is a way for humans to reason about any number of computational schemes in an abstract way. In terms of Marr’s levels of analysis, formalism allows us to reason at the top “computational” level, meaning implementation- and algorithm-independent. So although we need to write the rules of connectionist models in the language of mathematical symbols, this does not make it a symbol processing modeling of cognition. We reviewed what a symbolic model of cognition is, what it entails, and some of the shortcomings of a strong symbolic processing worldview. Through some modern examples, we saw that symbolic processing may be an emergent property of connectionist systems which arise because symbolic processing would be more energetically favorable. Although we may find that the connectionism has very little in common with the actual functioning of the brain, for now it seems to by physiologically nearer to the brain than symbolic systems. I maintain that the most interesting and fruitful approach between symbolic systems and connectionism is to build a connectionist model that could actually demonstrate emergent symbolic processing capabilities beyond the suggestive results from <span class="citation">Kriete et al. (2013)</span> and <span class="citation">LeCun et al. (2015)</span>.</p>
+    <h1 id="references" class="unnumbered">References</h1>
+    <div id="refs" class="references">
+    <div id="ref-Joanisse2015">
+    <p>Joanisse, Marc F., and James L. McClelland. 2015. “Connectionist perspectives on language learning, representation and processing.” <em>Wiley Interdisciplinary Reviews: Cognitive Science</em> 6 (3): 235–47. doi:<a href="https://doi.org/10.1002/wcs.1340">10.1002/wcs.1340</a>.</p>
+    </div>
+    <div id="ref-Kriete2013">
+    <p>Kriete, Trenton, David C Noelle, Jonathan D Cohen, and Randall C O Reilly. 2013. “Indirection and symbol-like processing in the prefrontal cortex and basal ganglia.” <em>Proceedings of the National Academy of Sciences</em>. doi:<a href="https://doi.org/10.1073/pnas.1303547110/-/DCSupplemental.www.pnas.org/cgi/doi/10.1073/pnas.1303547110">10.1073/pnas.1303547110/-/DCSupplemental.www.pnas.org/cgi/doi/10.1073/pnas.1303547110</a>.</p>
+    </div>
+    <div id="ref-LeCun2015">
+    <p>LeCun, Yann, Yoshua Bengio, Geoffrey Hinton, Lecun Y., Bengio Y., and Hinton G. 2015. “Deep learning.” <em>Nature</em> 521 (7553): 436–44. doi:<a href="https://doi.org/10.1038/nature14539">10.1038/nature14539</a>.</p>
+    </div>
+    <div id="ref-Olson1997">
+    <p>Olson, A C, and G W Humphreys. 1997. “Connectionist models of neuropsychological disorders.” <em>Trends in Cognitive Sciences</em> 1 (6): 222–8. doi:<a href="https://doi.org/10.1016/S1364-6613(97)01072-3">10.1016/S1364-6613(97)01072-3</a>.</p>
+    </div>
+    <div id="ref-Rescorla2015">
+    <p>Rescorla, Michael. 2015. “Computational modeling of the mind: What role for mental representation?” <em>Wiley Interdisciplinary Reviews: Cognitive Science</em> 6 (1): 65–73. doi:<a href="https://doi.org/10.1002/wcs.1325">10.1002/wcs.1325</a>.</p>
+    </div>
+    <div id="ref-Rumelhart1986a">
+    <p>Rumelhart, David E., and James L. McClelland. 1986. <em>Parallel Distributed Processing</em>. Massachusetts Institute of Technology. doi:<a href="https://doi.org/10.1016/0010-0277(93)90006-H">10.1016/0010-0277(93)90006-H</a>.</p>
+    </div>
+    </div>
+</div>
+</body>
+</html>
